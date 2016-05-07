@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450676491CDDE79B004DA2C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450676481CDDE79B004DA2C4 /* AppDelegate.swift */; };
+		4506764B1CDDE79B004DA2C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506764A1CDDE79B004DA2C4 /* ViewController.swift */; };
+		4506764E1CDDE79B004DA2C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4506764C1CDDE79B004DA2C4 /* Main.storyboard */; };
+		450676501CDDE79B004DA2C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4506764F1CDDE79B004DA2C4 /* Assets.xcassets */; };
+		450676531CDDE79B004DA2C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450676511CDDE79B004DA2C4 /* LaunchScreen.storyboard */; };
+		4506765E1CDDE79B004DA2C4 /* GymStopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506765D1CDDE79B004DA2C4 /* GymStopwatchTests.swift */; };
+		450676691CDDE79B004DA2C4 /* GymStopwatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450676681CDDE79B004DA2C4 /* GymStopwatchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4506765A1CDDE79B004DA2C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4506763D1CDDE79B004DA2C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450676441CDDE79B004DA2C4;
+			remoteInfo = GymStopwatch;
+		};
+		450676651CDDE79B004DA2C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4506763D1CDDE79B004DA2C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450676441CDDE79B004DA2C4;
+			remoteInfo = GymStopwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450676451CDDE79B004DA2C4 /* GymStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450676481CDDE79B004DA2C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4506764A1CDDE79B004DA2C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4506764D1CDDE79B004DA2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4506764F1CDDE79B004DA2C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		450676521CDDE79B004DA2C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		450676541CDDE79B004DA2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450676591CDDE79B004DA2C4 /* GymStopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymStopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4506765D1CDDE79B004DA2C4 /* GymStopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymStopwatchTests.swift; sourceTree = "<group>"; };
+		4506765F1CDDE79B004DA2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450676641CDDE79B004DA2C4 /* GymStopwatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymStopwatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		450676681CDDE79B004DA2C4 /* GymStopwatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymStopwatchUITests.swift; sourceTree = "<group>"; };
+		4506766A1CDDE79B004DA2C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450676421CDDE79B004DA2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450676561CDDE79B004DA2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450676611CDDE79B004DA2C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4506763C1CDDE79B004DA2C4 = {
+			isa = PBXGroup;
+			children = (
+				450676471CDDE79B004DA2C4 /* GymStopwatch */,
+				4506765C1CDDE79B004DA2C4 /* GymStopwatchTests */,
+				450676671CDDE79B004DA2C4 /* GymStopwatchUITests */,
+				450676461CDDE79B004DA2C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		450676461CDDE79B004DA2C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450676451CDDE79B004DA2C4 /* GymStopwatch.app */,
+				450676591CDDE79B004DA2C4 /* GymStopwatchTests.xctest */,
+				450676641CDDE79B004DA2C4 /* GymStopwatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450676471CDDE79B004DA2C4 /* GymStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				450676481CDDE79B004DA2C4 /* AppDelegate.swift */,
+				4506764A1CDDE79B004DA2C4 /* ViewController.swift */,
+				4506764C1CDDE79B004DA2C4 /* Main.storyboard */,
+				4506764F1CDDE79B004DA2C4 /* Assets.xcassets */,
+				450676511CDDE79B004DA2C4 /* LaunchScreen.storyboard */,
+				450676541CDDE79B004DA2C4 /* Info.plist */,
+			);
+			path = GymStopwatch;
+			sourceTree = "<group>";
+		};
+		4506765C1CDDE79B004DA2C4 /* GymStopwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4506765D1CDDE79B004DA2C4 /* GymStopwatchTests.swift */,
+				4506765F1CDDE79B004DA2C4 /* Info.plist */,
+			);
+			path = GymStopwatchTests;
+			sourceTree = "<group>";
+		};
+		450676671CDDE79B004DA2C4 /* GymStopwatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				450676681CDDE79B004DA2C4 /* GymStopwatchUITests.swift */,
+				4506766A1CDDE79B004DA2C4 /* Info.plist */,
+			);
+			path = GymStopwatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450676441CDDE79B004DA2C4 /* GymStopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4506766D1CDDE79B004DA2C4 /* Build configuration list for PBXNativeTarget "GymStopwatch" */;
+			buildPhases = (
+				450676411CDDE79B004DA2C4 /* Sources */,
+				450676421CDDE79B004DA2C4 /* Frameworks */,
+				450676431CDDE79B004DA2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymStopwatch;
+			productName = GymStopwatch;
+			productReference = 450676451CDDE79B004DA2C4 /* GymStopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		450676581CDDE79B004DA2C4 /* GymStopwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450676701CDDE79B004DA2C4 /* Build configuration list for PBXNativeTarget "GymStopwatchTests" */;
+			buildPhases = (
+				450676551CDDE79B004DA2C4 /* Sources */,
+				450676561CDDE79B004DA2C4 /* Frameworks */,
+				450676571CDDE79B004DA2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4506765B1CDDE79B004DA2C4 /* PBXTargetDependency */,
+			);
+			name = GymStopwatchTests;
+			productName = GymStopwatchTests;
+			productReference = 450676591CDDE79B004DA2C4 /* GymStopwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		450676631CDDE79B004DA2C4 /* GymStopwatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450676731CDDE79B004DA2C4 /* Build configuration list for PBXNativeTarget "GymStopwatchUITests" */;
+			buildPhases = (
+				450676601CDDE79B004DA2C4 /* Sources */,
+				450676611CDDE79B004DA2C4 /* Frameworks */,
+				450676621CDDE79B004DA2C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450676661CDDE79B004DA2C4 /* PBXTargetDependency */,
+			);
+			name = GymStopwatchUITests;
+			productName = GymStopwatchUITests;
+			productReference = 450676641CDDE79B004DA2C4 /* GymStopwatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4506763D1CDDE79B004DA2C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roshan Rishav";
+				TargetAttributes = {
+					450676441CDDE79B004DA2C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7TW7HEUXJ;
+					};
+					450676581CDDE79B004DA2C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7TW7HEUXJ;
+						TestTargetID = 450676441CDDE79B004DA2C4;
+					};
+					450676631CDDE79B004DA2C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S7TW7HEUXJ;
+						TestTargetID = 450676441CDDE79B004DA2C4;
+					};
+				};
+			};
+			buildConfigurationList = 450676401CDDE79B004DA2C4 /* Build configuration list for PBXProject "GymStopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4506763C1CDDE79B004DA2C4;
+			productRefGroup = 450676461CDDE79B004DA2C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450676441CDDE79B004DA2C4 /* GymStopwatch */,
+				450676581CDDE79B004DA2C4 /* GymStopwatchTests */,
+				450676631CDDE79B004DA2C4 /* GymStopwatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450676431CDDE79B004DA2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450676531CDDE79B004DA2C4 /* LaunchScreen.storyboard in Resources */,
+				450676501CDDE79B004DA2C4 /* Assets.xcassets in Resources */,
+				4506764E1CDDE79B004DA2C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450676571CDDE79B004DA2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450676621CDDE79B004DA2C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450676411CDDE79B004DA2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506764B1CDDE79B004DA2C4 /* ViewController.swift in Sources */,
+				450676491CDDE79B004DA2C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450676551CDDE79B004DA2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506765E1CDDE79B004DA2C4 /* GymStopwatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450676601CDDE79B004DA2C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450676691CDDE79B004DA2C4 /* GymStopwatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4506765B1CDDE79B004DA2C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450676441CDDE79B004DA2C4 /* GymStopwatch */;
+			targetProxy = 4506765A1CDDE79B004DA2C4 /* PBXContainerItemProxy */;
+		};
+		450676661CDDE79B004DA2C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450676441CDDE79B004DA2C4 /* GymStopwatch */;
+			targetProxy = 450676651CDDE79B004DA2C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4506764C1CDDE79B004DA2C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4506764D1CDDE79B004DA2C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450676511CDDE79B004DA2C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450676521CDDE79B004DA2C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4506766B1CDDE79B004DA2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4506766C1CDDE79B004DA2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4506766E1CDDE79B004DA2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GymStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.GymStopwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4506766F1CDDE79B004DA2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GymStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.GymStopwatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		450676711CDDE79B004DA2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GymStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.GymStopwatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymStopwatch.app/GymStopwatch";
+			};
+			name = Debug;
+		};
+		450676721CDDE79B004DA2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GymStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.GymStopwatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GymStopwatch.app/GymStopwatch";
+			};
+			name = Release;
+		};
+		450676741CDDE79B004DA2C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GymStopwatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.GymStopwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GymStopwatch;
+			};
+			name = Debug;
+		};
+		450676751CDDE79B004DA2C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GymStopwatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.GymStopwatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GymStopwatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450676401CDDE79B004DA2C4 /* Build configuration list for PBXProject "GymStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4506766B1CDDE79B004DA2C4 /* Debug */,
+				4506766C1CDDE79B004DA2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4506766D1CDDE79B004DA2C4 /* Build configuration list for PBXNativeTarget "GymStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4506766E1CDDE79B004DA2C4 /* Debug */,
+				4506766F1CDDE79B004DA2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		450676701CDDE79B004DA2C4 /* Build configuration list for PBXNativeTarget "GymStopwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450676711CDDE79B004DA2C4 /* Debug */,
+				450676721CDDE79B004DA2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		450676731CDDE79B004DA2C4 /* Build configuration list for PBXNativeTarget "GymStopwatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450676741CDDE79B004DA2C4 /* Debug */,
+				450676751CDDE79B004DA2C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4506763D1CDDE79B004DA2C4 /* Project object */;
+}
